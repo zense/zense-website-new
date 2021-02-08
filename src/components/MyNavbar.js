@@ -4,7 +4,7 @@ import logo from '../assets/zense_logo.png';
 function MyNavbar() {
   return(
 <Navbar sticky="top" bg = "navbar">
-    <Navbar.Brand className="nav_brand" href="#home">
+    <Navbar.Brand className="nav_brand" href="/">
       <img
         src= {logo}
         height="50"
