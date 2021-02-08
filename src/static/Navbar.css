@@ -1,0 +1,25 @@
+
+:root{
+    --first-color: #3e3e3e;
+    --second-color: #ffffff;
+}
+
+.bg-navbar{
+    background-color: var(--second-color);
+}
+
+.nav_brand{
+    margin: 0px 5vw;
+}
+
+.nav-link{
+    /* background-color:red; */
+    border-radius: 25px;
+    margin: 0 1.5vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav-link span{
+    color: var(--first-color);
+}

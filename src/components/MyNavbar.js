@@ -1,17 +1,28 @@
-import Navbar from 'react-bootstrap/Navbar'
-import logo from '../logo.svg';
+import {Nav,  Navbar} from 'react-bootstrap';
+import '../static/Navbar.css'
+import logo from '../assets/zense_logo.png';
 function MyNavbar() {
   return(
-<Navbar bg="dark">
-    <Navbar.Brand href="#home">
+<Navbar sticky="top" bg = "navbar">
+    <Navbar.Brand className="nav_brand" href="/">
       <img
         src= {logo}
-        width="50"
         height="50"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /> 
     </Navbar.Brand>
+
+    <Nav className = "ml-auto">
+      <Nav.Link className = "nav-link" href="projects"><span>Projects</span></Nav.Link>
+      <Nav.Link className = "nav-link" href="news"><span>News</span></Nav.Link>
+      <Nav.Link className = "nav-link" href="blog"><span>Blog</span></Nav.Link>
+      <Nav.Link className = "nav-link" href="people"><span>People</span></Nav.Link>
+      <Nav.Link className = "nav-link" href="about"><span>About</span></Nav.Link>
+      <Nav.Link className = "nav-link" href="contact"><span>Contact</span></Nav.Link>
+    </Nav>
+    
+
   </Navbar>)
 }
 export default MyNavbar

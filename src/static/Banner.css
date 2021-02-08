@@ -1,0 +1,17 @@
+:root{
+    --first-color: #3e3e3e;
+    --second-color: #ffffff;
+}
+.main_banner_logo{
+    margin: 10vh 0 7vh 0;
+    height: 30vh;
+    color: var(--first-color);
+}
+.main_title{
+    font-size: 40px;
+}
+
+p{
+    padding: 10px 15vw;
+    font-size: 20px;
+}
