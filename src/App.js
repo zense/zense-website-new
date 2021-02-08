@@ -1,9 +1,18 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+
 import './App.css';
-import MyNavbar from './Layout/MyNavbar.js' 
+
+import BaseRouter from './routes';
+import MainLayout from './Layout/MainLayout';
+
 function App() {
   return (
     <div className="App">
-      <MyNavbar/>
+        <Router>
+          <MainLayout>
+            <BaseRouter />
+          </MainLayout>
+        </Router>
     </div>
   );
 }
