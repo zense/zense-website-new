@@ -6,14 +6,18 @@ function MyNavbar() {
   return(
 <Navbar collapseOnSelect sticky="top" bg = "navbar" expand="lg" >
   <Container>
+
     <Navbar.Brand className="nav_brand" href="/">
+    <Link to = "/zense-website-new/">
       <img
         src= {logo}
         height="60"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /> 
+        </Link>
     </Navbar.Brand>
+
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className = "ml-auto">
