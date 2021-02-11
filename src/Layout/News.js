@@ -1,5 +1,5 @@
-import MyNavbar from '../components/MyNavbar';
 import UpcomingEvents from '../components/UpcomingEvents';
+import {Container} from 'react-bootstrap';
 
 import '../static/News.css'
 
@@ -7,8 +7,10 @@ import '../static/News.css'
 function News() {
   return (
     <div>
+      <Container>
         <div className="heading">Upcoming Events</div>
-        <UpcomingEvents/>
+      </Container>
+      <UpcomingEvents/>
     </div>
     )
 }

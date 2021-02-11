@@ -1,22 +1,11 @@
 /* UPCOMING EVENTS */
 .heading {
     position: absolute;
-    width: 440px;
-    height: 53px;
-    left: 35px;
-    top: 110px;
-    
-    /* Tagline */
-    font-family: Poppins;
+    font-family: sans-serif,Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     line-height: 52px;
-    
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    text-align: center;
     
     color: #000000;    
 }
