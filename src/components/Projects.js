@@ -4,7 +4,7 @@ import ProjectPanel from './ProjectPanel'
 
 function Projects() {
 	return(
-		<div className="projects_container">
+		<div className="projects_container container">
 			<ProjectPanel />
 			<ProjectPanel />
 			<ProjectPanel />

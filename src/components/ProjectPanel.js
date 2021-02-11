@@ -4,24 +4,27 @@ import projectPicture from '../assets/projects/circuitverse.png'
 
 function ProjectPanel() {
 	return(
-		<div className="project_panel">
-			<div className="project_picture" style={{backgroundImage: `url(${projectPicture})` }} />
-			<div className="project_info_container">
-				<span className="project_frame_u" ></span>
-				<div className="project_info">
-					<div className="project_info_internal">
-						<div className="project_info_title">CircuitVerse</div>
-						<div className="project_info_text">
-						Dive into the world of Logic Circuits for free! From simple gates to complex sequential circuits, plot timing diagrams, automatic circuit generation, explore standard ICs, and much more
-						</div>
+		
+			<div class="project_panel container">
+				<div className="row row-centered pos">
+					<div className="col-lg-6 col-md-6 col-xs-12 col-centered">
+						<img className="project_picture col-lg-12 col-md-12 col-xs-12 col-centered" src={projectPicture} />
 					</div>
-					<a className="project_button" href="https://circuitverse.org" target="_blank" >
+					<div className="col-lg-5 col-md-5 col-xs-12 col-centered">
+						<span className="project_frame_u" />
+						<h4 className="project_title">CircuitVerse</h4>
+						<div className="project_text"> 
+						Please be nice to everyone who made this because this takes a good amount of effort please be kind and nothin else i dont know what this is
+						</div>
+						<a className="project_button" href="https://circuitverse.org">
 						<span className="project_button_text">View App</span>
-					</a>
+						</a>
+						<span className="project_frame_d" />
+					</div>
 				</div>
-				<span className="project_frame_d"></span>
 			</div>
-		</div>
+		
+		
 		)
 }
 
