@@ -98,7 +98,7 @@
 	left: 116.5px;
 	top: 0px;
 
-	font-family: Poppins;
+	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 40px;
@@ -128,7 +128,7 @@
 	left: 0px;
 	top: 94px;
 
-	font-family: Poppins;
+	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -166,11 +166,11 @@
 	padding: 10px;
 	text-decoration: none !important;
 
-	position: static;
+	position: relative;
 	width: 185px;
 	height: 58px;
-	left: 149.5px;
-	top: 318.5px;
+	left: auto;
+	top: 32px;
 
 	/* black */
 
@@ -192,7 +192,7 @@
 	left: 7px;
 	top: 1px;
 
-	font-family: Poppins;
+	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 25px;
