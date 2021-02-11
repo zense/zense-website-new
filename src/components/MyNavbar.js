@@ -4,7 +4,7 @@ import logo from '../assets/zense_logo.png';
 import {Link} from 'react-router-dom';
 function MyNavbar() {
   return(
-<Navbar collapseOnSelect sticky="top" bg = "navbar" expand="lg" >
+<Navbar collapseOnSelect className="shadow" sticky="top" bg = "navbar" expand="lg" >
   <Container>
 
     <Navbar.Brand className="nav_brand" href="/">
