@@ -5,6 +5,7 @@
 .main_banner{
     display: grid;
     place-items: center;
+    margin-bottom: 400px;
 }
 .main_banner_logo{
     margin-top: 20vh;

@@ -9,14 +9,11 @@
 	height: auto;
 	left: auto;
 	top: auto;
-	margin: 500px 0px;
+	margin: 300px 0px;
 }
 
 .project_info{
-	position: relative;
-	left: 0px;
-	width: 500px;
-	height: 400px;
+	max-height: 400px;
 }
 
 .project_title{
@@ -24,7 +21,7 @@
 	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 250%;
 	line-height: 60px;
 
 	position: relative;
@@ -35,30 +32,36 @@
 	margin: 20px auto;
 }
 
+.project_text::-webkit-scrollbar{
+	display: none;
+}
+
 .project_text{
 	color: #3E3E3E;
 	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 150%;
 	line-height: 36px;
-	display: flex;
 	align-items: center;
 	text-align: center;
+	overflow: auto;
 
 	position: relative;
 	top: auto;
 	left: auto;
 	height: auto;
 	width: auto;
-	margin: 30px auto;
+	max-height: 180px;
+	margin: 5% auto;
 	
 }
 
 .project_picture{
 	position: absolute;
-	width: 100% !important;
+	max-width: 10000px !important;
 	height: auto;
+	width: auto;
 	left: 0px;
 	top: 0px;
 
@@ -73,8 +76,11 @@
 	text-decoration: none !important;
 
 	position: relative;
-	width: 185px;
-	height: 58px;
+	width: 32%;
+	max-width: 150px;
+	min-width: 120px;
+	height: auto;
+	max-height: 20%;
 	left: auto;
 	top: auto;
 
@@ -124,7 +130,7 @@
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	left: 75%;
+	right: 0%;
 	top: 0%;
 	border-right: 5px solid lightgrey;
 	border-top: 5px solid lightgrey;
@@ -135,8 +141,8 @@
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	left: 3%;
-	top: 73%;
+	left: 0%;
+	bottom: 0%;
 	border-left: 5px solid lightgrey;
 	border-bottom: 5px solid lightgrey;
 
