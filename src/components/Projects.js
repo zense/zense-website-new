@@ -6,12 +6,14 @@ import projectData from '../data/projects.json'
 function Projects() {
 	let renderData = [];
 	projectData.forEach(project => {
-		renderData.push(<ProjectPanel data={project}/>);
+		renderData.push(<ProjectPanel data={project} key={project.uid} />);
 	})
 	return(
-		<div className="projects_container container">
-			{renderData}
-		</div>
+		<section id="projects">
+			<div className="projects_container container">
+				{renderData}
+			</div>
+		</section>
 		)
 }
 

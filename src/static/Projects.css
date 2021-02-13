@@ -41,7 +41,7 @@
 	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 150%;
+	font-size: 1.4em;
 	line-height: 36px;
 	align-items: center;
 	text-align: center;
@@ -76,9 +76,9 @@
 	text-decoration: none !important;
 
 	position: relative;
-	width: 32%;
+	width: 35%;
 	max-width: 150px;
-	min-width: 120px;
+	min-width: 150px;
 	height: auto;
 	max-height: 20%;
 	left: auto;

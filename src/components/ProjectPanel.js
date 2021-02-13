@@ -5,7 +5,7 @@ function ProjectPanel(props) {
 	const data = props.data.data;
 	return(
 		
-			<div class="project_panel container">
+			<div className="project_panel container">
 				<div className="row row-centered pos">
 					<div className="project_picture col-lg-7 col-md-12 col-xs-12 col-centered">
 						<img className="project_picture col-lg-12 col-md-12 col-xs-12 col-centered" src={data.imgsrc} alt={data.imgalt} />
@@ -16,7 +16,7 @@ function ProjectPanel(props) {
 						<div className="project_text"> 
 						{data.text}
 						</div>
-						<a className="project_button" href={data.link}>
+						<a className="project_button" href={data.link} target="_blank" >
 						<span className="project_button_text">View App</span>
 						</a>
 						<span className="project_frame_d" />

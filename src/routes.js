@@ -7,8 +7,8 @@ import News from './Layout/News';
 const BaseRouter = () => (
   <div>
     <Switch>
-      <Route exact path='/zense-website-new/' component={Home} />
-      <Route exact path='/zense-website-new/news' component={News} />
+      <Route exact path='/' component={Home} />
+      <Route exact path='/news' component={News} />
       {/* 
       <Route exact path='/projects/' component={} />
       <Route exact path='/people/' component={} />
