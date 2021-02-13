@@ -2,9 +2,10 @@ import {Nav,  Navbar, Container} from 'react-bootstrap';
 import '../static/Navbar.css'
 import logo from '../assets/zense_logo.png';
 import {Link} from 'react-router-dom';
+
 function MyNavbar() {
   return(
-<Navbar collapseOnSelect className="" sticky="top" bg = "navbar" expand="lg" >
+<Navbar collapseOnSelect className="main-navbar" sticky="top" bg = "navbar" expand="lg" >
   <Container>
 
     <Navbar.Brand className="nav_brand" href="/">

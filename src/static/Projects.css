@@ -39,6 +39,7 @@
 .project_text{
 	color: #3E3E3E;
 	font-family: sans-serif,Poppins;
+	scrollbar-width: none;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.4em;
