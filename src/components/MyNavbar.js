@@ -1,7 +1,6 @@
 import {Nav,  Navbar, Container} from 'react-bootstrap';
 import '../static/Navbar.css'
 import logo from '../assets/zense_logo.png';
-import {Link} from 'react-router-dom';
 
 function MyNavbar() {
   return(
@@ -9,14 +8,14 @@ function MyNavbar() {
   <Container>
 
     <Navbar.Brand className="nav_brand" href="/">
-    <Link to = "/">
+    <a href ="/">
       <img
         src= {logo}
         height="60"
         className="d-inline-block align-top"
         alt="Zense Logo"
       /> 
-        </Link>
+      </a>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

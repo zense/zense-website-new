@@ -1,5 +1,4 @@
 import React from 'react'
-import Bootstrap from 'react-bootstrap'
 import logo from '../assets/zense_logo.png';
 import '../static/Banner.css'
 import downArrow from '../assets/arrow-down-circle.png'
