@@ -14,7 +14,7 @@ function ProjectPanel(props) {
 						<span className="project_frame_u" />
 						<h4 className="project_title">{data.title}</h4>
 						<div className="project_text"> 
-						{data.text}
+							{data.text}
 						</div>
 						<a className="project_button" href={data.link} target="_blank" >
 						<span className="project_button_text">View App</span>

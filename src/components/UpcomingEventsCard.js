@@ -3,23 +3,24 @@ import {Card,Button} from 'react-bootstrap';
 import '../static/UpcomingEvents.css';
 
 
-const UpcomingEventsCard = ({Data}) => {
+const UpcomingEventsCard = (props) => {
+    const data = props.data.data;
     return(
         <div>
             <Card className="upcoming-events-card">
             <Card.Body className="upcoming-events-card-body">
                 <Card.Title className="upcoming-events-card-title">
-                    { Data.Title }
+                    { data.title }
                 </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted upcoming-events-card-subtitle">
-                    { Data.Subtitle }
+                    { data.date }
                 </Card.Subtitle>
                 <Card.Text className="upcoming-events-card-text">
-                    { Data.Text }
+                    { data.text }
                 </Card.Text>
                 <Button variant="dark" className="upcoming-events-card-button">
-                    <Card.Link href={ Data.Link } className="upcoming-events-card-button-text">
-                        { Data.LinkText }
+                    <Card.Link href={ data.link } className="upcoming-events-card-button-text">
+                        { data.linkText }
                     </Card.Link>
                 </Button>
             </Card.Body>
