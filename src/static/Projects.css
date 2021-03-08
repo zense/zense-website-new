@@ -1,0 +1,150 @@
+.projects_container{
+
+}
+
+.project_panel{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	left: auto;
+	top: auto;
+	margin: 300px 0px;
+}
+
+.project_info{
+	max-height: 400px;
+}
+
+.project_title{
+	color: #3E3E3E;
+	font-family: sans-serif,Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 250%;
+	line-height: 60px;
+
+	position: relative;
+	height: auto;
+	width: auto;
+	top: auto;
+	left: auto;
+	margin: 20px auto;
+}
+
+.project_text::-webkit-scrollbar{
+	display: none;
+}
+
+.project_text{
+	color: #3E3E3E;
+	font-family: sans-serif,Poppins;
+	scrollbar-width: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 36px;
+	align-items: center;
+	text-align: center;
+	overflow: auto;
+
+	position: relative;
+	top: auto;
+	left: auto;
+	height: auto;
+	width: auto;
+	max-height: 180px;
+	margin: 5% auto;
+	
+}
+
+.project_picture{
+	position: absolute;
+	max-width: 10000px !important;
+	height: auto;
+	width: auto;
+	left: 0px;
+	top: 0px;
+
+}
+
+.project_button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-decoration: none !important;
+
+	position: relative;
+	width: 35%;
+	max-width: 150px;
+	min-width: 150px;
+	height: auto;
+	max-height: 20%;
+	left: auto;
+	top: auto;
+
+	/* black */
+
+	background: #3E3E3E;
+	border-radius: 30px;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 30px auto;
+}
+
+.project_button_text{
+	position: relative;
+	width: 118px;
+	height: 38px;
+	left: 7px;
+	top: 1px;
+
+	font-family: sans-serif,Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 37px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+.project_frame_u{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	right: 0%;
+	top: 0%;
+	border-right: 5px solid lightgrey;
+	border-top: 5px solid lightgrey;
+
+}
+
+.project_frame_d{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0%;
+	bottom: 0%;
+	border-left: 5px solid lightgrey;
+	border-bottom: 5px solid lightgrey;
+
+}

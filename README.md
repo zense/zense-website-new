@@ -1,3 +1,5 @@
+You can find the design and prototype of the website [here](https://www.figma.com/file/02OgVi0VsQixVsuxQ5RGww/ZenseWebsite?node-id=0%3A1).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
