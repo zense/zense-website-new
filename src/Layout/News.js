@@ -1,4 +1,5 @@
 import UpcomingEvents from '../components/UpcomingEvents';
+import Timeline from '../components/Timeline';
 import {Container,Row,Col} from 'react-bootstrap';
 import '../static/News.css'
 
@@ -17,6 +18,20 @@ function News() {
               <UpcomingEvents/>
             </Col>
         </Row>
+      </Container>
+      
+      <Container fluid>
+        <Row>
+          <Col>
+            <div className="timeline-title">Our Journey</div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Timeline/>
+          </Col>
+        </Row>
+
       </Container>
     </div>
     )

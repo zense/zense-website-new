@@ -3,10 +3,17 @@
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
-
     text-align: left;
-
     padding: 2vw 5vw 2.5vw 10vw;
-    
     color: #000000;    
+}
+
+.timeline-title {
+    font-family: sans-serif,Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: left;
+    padding: 2vw 5vw 2.5vw 10vw;
+    color: #000000;
 }
