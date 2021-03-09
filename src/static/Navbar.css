@@ -1,4 +1,3 @@
-
 :root{
     --first-color: #3e3e3e;
     --second-color: #ffffff;
@@ -24,8 +23,4 @@
 }
 .nav-link span{
     color: var(--first-color);
-}
-.navbar{
-    margin-left: 4vw;
-    margin-right: 10vw;
 }
