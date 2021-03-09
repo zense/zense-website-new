@@ -1,14 +1,15 @@
 .http-err {
-	margin-top: 5%;
+	margin-top: 2.5vw;
 	font-family: sans-serif,Poppins;
-	font-size: 5vh;
+	font-size: 2.5rem;
 }
 
-.http-err-msg {
-	margin-top: 10%;
+.http-err-img {
+	margin-top: 5vw;
 	position: relative;
-	width: 70%;
+	width: 45%;
 }
+
 
 .home-button {
 	display: flex;
@@ -50,7 +51,7 @@
 	font-family: sans-serif,Poppins;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 60%;
+	font-size: 1.25rem;
 	line-height: 37px;
 	/* identical to box height */
 
