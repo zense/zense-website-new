@@ -3,6 +3,8 @@ import logo from '../assets/zense_logo.png';
 import '../static/Banner.css'
 import downArrow from '../assets/arrow-down-circle.png'
 import {Link} from 'react-router-dom'
+
+
 function Banner() {
     const executeScroll = () => {
         var element = document.getElementById("projects");

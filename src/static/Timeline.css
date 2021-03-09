@@ -1,0 +1,30 @@
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #424242;
+}
+
+.vertical-timeline.vertical-timeline-custom-line .project .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #b8d4f0, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+  
+.vertical-timeline.vertical-timeline-custom-line .event .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #ebc6d4, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+/* 
+.links{
+  color: rgb(0, 0, 0);
+  text-align: center;
+} */
+
+/* links:hover, links:active{
+  cursor: pointer;
+  background-color: rgb(44, 51, 44);
+  color: white;
+} */
+
+/* .date{
+  color: black;
+} */
+
+.timeline-main{
+  padding: 2vw 5vw 2.5vw 10vw;
+}
