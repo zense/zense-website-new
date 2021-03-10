@@ -1,10 +1,24 @@
+import {useState, useEffect} from 'react';
 import {Nav,  Navbar, Container} from 'react-bootstrap';
 import '../static/Navbar.css'
 import logo from '../assets/zense_logo.png';
 
 function MyNavbar() {
+
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 10);
+    });
+  }, []);
+
   return (
-    <Navbar collapseOnSelect sticky="top" bg = "navbar" expand="lg" >
+    <Navbar className = {scroll ? 'shadow-nav' : ''}
+            collapseOnSelect 
+            sticky="top" 
+            bg = "navbar" 
+            expand="lg" 
+    >
       <Container>
         <Navbar.Brand className="nav_brand" href="/">
         <a href ="/">
