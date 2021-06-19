@@ -10,11 +10,11 @@ function UpcomingEvents() {
 
   let renderData = [];
   uEventData.forEach(uEvent => {
-    renderData.push(<Col key={uEvent.uid}><UpcomingEventsCard data={uEvent} /></Col>);
+    renderData.push(<div className="upcoming-events-col" key={uEvent.uid}><UpcomingEventsCard data={uEvent} /></div>);
   })
 
   return (
-    <div style={{display: 'flex', flexDirection: 'row'}}>
+    <div>
       <Container fluid className="upcoming-events-container">
         <Row className="justify-content-md-center">
           {renderData}
@@ -23,6 +23,5 @@ function UpcomingEvents() {
     </div>
     );
 }
-
 
 export default UpcomingEvents;

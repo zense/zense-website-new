@@ -6,6 +6,8 @@
     border-radius: 0.8vw !important;
     text-align: left;
     box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 385px;
+    margin-top: 30px;
 }
 
 .upcoming-events-card-body {
@@ -17,6 +19,13 @@
     font-style: normal;
     font-weight: 550 !important;
     font-size: 2.25rem !important;
+}
+
+.upcoming-events-col {
+    width: 385px;
+    margin-right: 40px;
+    margin-top: 20px;
+    align-items: left;
 }
 
 .upcoming-events-card-subtitle {
@@ -31,10 +40,11 @@
     text-align: left;
     padding-left: 0px;
     padding-right: 0px;
+
 }
 
 .upcoming-events-card-button {
-    border-radius: 2vw !important;
+    border-radius: 20px !important;
 }
 
 .upcoming-events-card-button-text {
