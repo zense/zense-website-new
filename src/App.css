@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .App {
   text-align: center;
 }
 
+.row {
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  max-width: 100% !important;
 }

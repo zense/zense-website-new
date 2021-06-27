@@ -1,56 +1,80 @@
+
 .upcoming-events-container {
     padding: 0.5vw 5vw 0vw 10vw !important;
 }
 
 .upcoming-events-card {
-    border-radius: 0.8vw !important;
     text-align: left;
-    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px !important;
     width: 385px;
     margin-top: 30px;
+    background: transparent !important;
 }
 
 .upcoming-events-card-body {
-    padding: 1.75rem !important;
+    padding: 0rem !important;
+    border-radius: 16px;
+    background: transparent !important;
 }
 
 .upcoming-events-card-title {
-    font-family: sans-serif, Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 550 !important;
+    font-weight: 700 !important;
     font-size: 2.25rem !important;
+    background: #05A592 !important;
+    margin-bottom: 0 !important;
+    padding: 16px 16px 0 16px !important;
+    color: #FFFFFF;
+    border-radius: 16px 16px 0 0;
 }
 
 .upcoming-events-col {
     width: 385px;
     margin-right: 40px;
-    margin-top: 20px;
     align-items: left;
 }
 
 .upcoming-events-card-subtitle {
     font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    background: #05A592 !important;
+    padding: 16px !important;
+    color: #FFFFFF !important;
 }
 
 .upcoming-events-card-text {
-    font-family: sans-serif, Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400 !important;
     font-size: 1.25rem !important;
     text-align: left;
     padding-left: 0px;
     padding-right: 0px;
+    padding: 16px !important;
 
 }
 
 .upcoming-events-card-button {
-    border-radius: 20px !important;
+    background-color: transparent !important;
+    background-image: url("../assets/plug.svg");
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    border: none !important;
+    padding: 16px !important;
 }
 
 .upcoming-events-card-button-text {
-    font-family: sans-serif, Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400 !important;
     font-size: 1.25rem !important;
-    color: #FFFFFF
+    color: #FFFFFF;
+
+}
+
+.upcoming-events-card-button-text img {
+    margin: 20px !important;
 }

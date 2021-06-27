@@ -1,26 +1,39 @@
-.projects_container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,600&display=swap');
 
+.projects_container{
+	margin: 0 !important;
 }
 
 .project_panel{
 	position: relative;
-	display: inline-block;
-	width: auto;
-	height: auto;
-	left: auto;
-	top: auto;
+	display: flex;
 	margin: 300px 0px;
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .project_info{
 	max-height: 400px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: flex-start; */
+	text-align: left;
+
+}
+
+.project_info h4{
+	width: 100% !important;
+	text-align: left;
 }
 
 .project_title{
-	color: #3E3E3E;
-	font-family: sans-serif,Poppins;
+	color: #222;
+	font-family: 'Poppins', sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: bolder;
 	font-size: 250%;
 	line-height: 60px;
 
@@ -38,14 +51,13 @@
 
 .project_text{
 	color: #3E3E3E;
-	font-family: sans-serif,Poppins;
+	font-family: 'Poppins', sans-serif;
 	scrollbar-width: none;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.4em;
 	line-height: 36px;
-	align-items: center;
-	text-align: center;
+	text-align: left;
 	overflow: auto;
 
 	position: relative;
@@ -65,7 +77,12 @@
 	width: auto;
 	left: 0px;
 	top: 0px;
+	padding-right: 0 !important;
 
+}
+.project_picture img {
+	padding-right: 0 !important;
+	margin-right: 0 !important;
 }
 
 .project_button{
@@ -105,7 +122,7 @@
 	left: 7px;
 	top: 1px;
 
-	font-family: sans-serif,Poppins;
+	font-family: 'Poppins', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 25px;
@@ -125,26 +142,4 @@
 	order: 0;
 	flex-grow: 0;
 	margin: 0px 10px;
-}
-
-.project_frame_u{
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	right: 0%;
-	top: 0%;
-	border-right: 5px solid lightgrey;
-	border-top: 5px solid lightgrey;
-
-}
-
-.project_frame_d{
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 0%;
-	bottom: 0%;
-	border-left: 5px solid lightgrey;
-	border-bottom: 5px solid lightgrey;
-
 }

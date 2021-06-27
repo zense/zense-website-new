@@ -5,7 +5,6 @@ import UpcomingEventsCard from './UpcomingEventsCard';
 import uEventData from '../data/events_upcoming.json'
 
 
-
 function UpcomingEvents() {
 
   let renderData = [];

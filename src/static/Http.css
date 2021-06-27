@@ -1,6 +1,6 @@
 .http-err {
 	margin-top: 2.5vw;
-	font-family: sans-serif,Poppins;
+	font-family: 'Poppins', sans-serif;
 	font-size: 2.5rem;
 }
 
@@ -48,7 +48,7 @@
 	height: 38px;
 	/*left: 7px;*/
 	/*top: 1px;*/
-	font-family: sans-serif,Poppins;
+	font-family: 'Poppins', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 1.25rem;

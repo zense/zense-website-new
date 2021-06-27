@@ -1,5 +1,5 @@
 .upcoming-event-title {
-    font-family: sans-serif,Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
@@ -9,7 +9,7 @@
 }
 
 .timeline-title {
-    font-family: sans-serif,Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
