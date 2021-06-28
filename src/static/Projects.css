@@ -10,23 +10,20 @@
 	margin: 300px 0px;
 	margin-right: 0 !important;
 	padding-right: 0 !important;
-	align-items: center;
-	justify-content: space-between;
 }
 
 .project_info{
 	max-height: 400px;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
-	/* align-items: flex-start; */
 	text-align: left;
+	width: 80%;
 
 }
 
 .project_info h4{
 	width: 100% !important;
-	text-align: left;
+	text-align: center;
 }
 
 .project_title{
@@ -43,6 +40,7 @@
 	top: auto;
 	left: auto;
 	margin: 20px auto;
+	
 }
 
 .project_text::-webkit-scrollbar{
@@ -67,6 +65,7 @@
 	width: auto;
 	max-height: 180px;
 	margin: 5% auto;
+	padding-left: 30px;
 	
 }
 
@@ -112,7 +111,7 @@
 	flex: none;
 	order: 1;
 	flex-grow: 0;
-	margin: 30px auto;
+	margin: 20px auto;
 }
 
 .project_button_text{
@@ -142,4 +141,5 @@
 	order: 0;
 	flex-grow: 0;
 	margin: 0px 10px;
+	margin-right: 20px;
 }
