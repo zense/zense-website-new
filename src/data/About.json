@@ -1,0 +1,23 @@
+[
+	{	
+		"type": "about",
+		"uid": "F7J3mBuDEwyOeAr0",
+		"data": {
+			"imgsrc": "/data_img/about/circuitverse.svg",
+			"imgalt": "CircuitVerse image",
+			"title": "Who are we?",
+			"text": "Dive into the world of Logic Circuits for free! From simple gates to complex sequential circuits, plot timing diagrams, automatic circuit generation, explore standard ICs, and much more"
+		}
+	},
+
+	{	
+		"type": "about",
+		"uid": "kELAD0roRSGHYwD3",
+		"data": {
+			"imgsrc": "/data_img/about/circuitverse.svg",
+			"imgalt": "CircuitVerse image",
+			"title": "What do we do?",
+			"text": "Dive into the world of Logic Circuits for free! From simple gates to complex sequential circuits, plot timing diagrams, automatic circuit generation, explore standard ICs, and much more"
+		}
+	}
+]
