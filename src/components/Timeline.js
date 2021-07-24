@@ -105,7 +105,7 @@ const TimelineElement = (elements) =>
             <p>
                 {element.content}
             </p>
-            {/* <a href={element.github} class='links'>Github</a> */}
+            {/* <a href={element.github} className='links'>Github</a> */}
         </VerticalTimelineElement>
     ));
 

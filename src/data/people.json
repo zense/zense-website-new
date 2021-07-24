@@ -1,0 +1,104 @@
+[
+	{	
+		"type": "person",
+		"uid": "1",
+		"data": {
+            "name":"Person 1",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 1 image",
+			"caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://circuitverse.org"
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "2",
+		"data": {
+            "name":"Person 2",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 2 image",
+            "caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "3",
+		"data": {
+            "name":"Person 3",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 3 image",
+            "caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "4",
+		"data": {
+            "name":"Person 4",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 4 image",
+            "caption": "Abouthttps://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "5",
+		"data": {
+            "name":"Person 5",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 5 image",
+            "caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "6",
+		"data": {
+            "name":"Person 6",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 6 image",
+            "caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "7",
+		"data": {
+            "name":"Person 7",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 7 image",
+            "caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	},
+
+	{	
+		"type": "person",
+		"uid": "8",
+		"data": {
+            "name":"Person 8",
+			"imgsrc": "/data_img/projects/team_member.svg",
+			"imgalt": "Person 8 image",
+            "caption": "About",
+			"githubLink": "https://github.com",
+            "linkedinLink": "https://linkedin.com"		
+        }
+	}
+]
