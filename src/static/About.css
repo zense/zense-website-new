@@ -7,18 +7,34 @@
 .about_panel{
 	position: relative;
 	display: flex;
-	margin: 50px 0px;
+	margin: 50px;
+}
+
+.about_panel_right{
+	margin-right: 0px;
 	margin-right: 0 !important;
 	padding-right: 0 !important;
+}
+
+.about_panel_left{
+	margin-left: 0px;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
 }
 
 .about_info{
 	max-height: 400px;
 	display: flex;
 	flex-direction: column;
-	text-align: left;
 	width: 80%;
+}
 
+.about_info_right{
+	text-align: left;
+}
+
+.about_info_left{
+	text-align: right;
 }
 
 .about_info h4{
@@ -74,12 +90,26 @@
 	max-width: 10000px !important;
 	height: auto;
 	width: auto;
-	left: 0px;
 	top: 0px;
-	padding-right: 0 !important;
-
 }
-.about_picture img {
+
+.about_picture_right{
+	left: 0px;
+	padding-right: 0 !important;
+}
+
+.about_picture_right img {
 	padding-right: 0 !important;
 	margin-right: 0 !important;
+}
+
+.about_picture_left{
+	right: 0px;
+	padding-left: 0 !important;
+
+}
+
+.about_picture_left img {
+	padding-left: 0 !important;
+	margin-left: 0 !important;
 }
