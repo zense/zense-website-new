@@ -21,14 +21,12 @@ function MyNavbar() {
     >
       <Container>
         <Navbar.Brand className="nav_brand" href="/">
-        <a href ="/">
           <img
             src= {logo}
             height="60"
             className="d-inline-block align-top"
             alt="Zense Logo"
           /> 
-          </a>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

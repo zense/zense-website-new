@@ -1,1 +1,19 @@
-
+.team-col{
+    padding: 25px 25px 25px 25px !important
+}
+.team_container {
+    padding: 0.5vh 10vw 0.5vh 10vw !important;
+}
+.team-card{
+    min-width: 17rem !important;
+    max-width: 17rem!important;
+    max-height: 20rem!important;
+}
+.github-icon{
+    font-size: 32px !important;
+    color:black;
+}
+.linkedin-icon{
+    font-size: 40px !important;
+    color:black;
+}
