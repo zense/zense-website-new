@@ -1,19 +1,30 @@
-.team-col{
-    padding: 25px 25px 25px 25px !important
+.team-col {
+    padding: 25px 25px 25px 25px !important;
 }
+
 .team_container {
     padding: 0.5vh 10vw 0.5vh 10vw !important;
 }
-.team-card{
+
+.team-row {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.team-card {
     min-width: 17rem !important;
-    max-width: 17rem!important;
-    max-height: 20rem!important;
+    max-width: 17rem !important;
+    /* max-height: 20rem !important; */
+    max-height: max-content;
 }
-.github-icon{
+
+.github-icon {
     font-size: 32px !important;
-    color:black;
+    color: black;
 }
-.linkedin-icon{
+
+.linkedin-icon {
     font-size: 40px !important;
-    color:black;
+    color: black;
 }

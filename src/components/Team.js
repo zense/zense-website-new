@@ -24,9 +24,9 @@ function Team() {
 		<section id="team">
             <h3 className="team_heading"> The Team </h3>
 			<Container className="team_container">
-				<Row>
+				<div class = 'team-row'>
 					{renderData}
-				</Row>
+				</div>
 			</Container>
 		</section>
 		)
