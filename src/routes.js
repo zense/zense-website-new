@@ -6,6 +6,7 @@ import News from './Layout/News';
 import NotFound from './Http/NotFound';
 import Team from './components/Team';
 import About from './components/About';
+import Contact from './components/Contact';
 
 const BaseRouter = () => (
   <div>
@@ -16,6 +17,7 @@ const BaseRouter = () => (
       <Route exact path='/projects/' component={} /> */}
       <Route exact path='/about/' component={About} />
       <Route exact path='/people/' component={Team} />
+      <Route exact path='/people/' component={Contact} />
       <Route path="" component={NotFound} />
     </Switch>
   </div>
