@@ -9,8 +9,8 @@ function ContactPanel(props) {
     // console.log(data);
 
     return (
-        <div className="contact_panel">
-            <div className="contac_info">
+        <div className="contact_panel_data">
+            <div className="contact_info">
                 <p>{data.info}</p>
             </div>
             <div className="contact_picture">
@@ -33,7 +33,7 @@ function ContactSocials(props) {
     })
 
     return (
-        <div className="contac_socials">
+        <div className="contact_panel_socials">
             {renderData}
         </div>
     );
