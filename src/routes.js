@@ -17,7 +17,7 @@ const BaseRouter = () => (
       <Route exact path='/projects/' component={} /> */}
       <Route exact path='/about/' component={About} />
       <Route exact path='/people/' component={Team} />
-      <Route exact path='/people/' component={Contact} />
+      <Route exact path='/contact/' component={Contact} />
       <Route path="" component={NotFound} />
     </Switch>
   </div>

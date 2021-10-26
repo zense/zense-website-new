@@ -1,18 +1,45 @@
 import React from 'react'
 import '../static/Contact.css'
 
-function ContactPanelSocials(props) {
 
+function ContactPanel(props) {
+    
+    const data = props.data;
+
+    // console.log(data);
+
+    return (
+        <div className="contact_panel">
+            <div className="contac_info">
+                <p>{data.info}</p>
+            </div>
+            <div className="contact_picture">
+                <img src={data.imgsrc} alt={data.imgalt} />
+            </div>
+        </div>
+    )
 }
 
-function ContactPanelLeft(props) {
-    const data = props.data.data;
+function ContactSocials(props) {
 
-    // return ()
+    let renderData = [];
+    const data = props.data;
+    
+    data.socials.forEach(social => {
+
+        // console.log(social.uid);
+
+        renderData.push(<img src={social.data.imgsrc} alt={social.data.imgalt} key={social.uid} />);
+    })
+
+    return (
+        <div className="contac_socials">
+            {renderData}
+        </div>
+    );
 }
 
-function ContactPanelRight(props) {
-    const data = props.data.data;
-
-    // return ()
+export {
+    ContactPanel,
+    ContactSocials
 }
