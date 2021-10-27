@@ -14,10 +14,6 @@
 @media only screen and (max-width: 992px) {
 
     .contact_panel_socials {
-        #right: 0px !important;
-
-        #display: flex;
-        #flex-direction: column;
 
     }
 
@@ -36,16 +32,6 @@
 
     .contact_panel_socials {
 
-        #right: 0px !important;
-
-        #background-color: red;
-
-        #padding: 5%;
-
-        #width: 10%;
-
-        #padding-top: 20px;
-
         display: flex;
         flex-direction: column;
     }
@@ -53,12 +39,10 @@
     .contact_icon {
        
         margin: 10% !important;
-        max-height: 40px !important;
+        #max-height: 40px !important;
     }
 
     .contact_picture {
-        
-        #position: absolute;
         
         max-height: 100% !important;
         max-width: 100% !important;
@@ -73,11 +57,6 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    
-    #margin-right: 0px;
-    #margin-right: 0 !important;
-    #padding-right: 0 !important;
-
 }
 
 .contact_title{
@@ -97,10 +76,6 @@
 	
 }
 
-/*.contact_text::-webkit-scrollbar{
-	display: none;
-}*/
-
 .contact_text{
 	color: #3E3E3E;
 	font-family: 'Poppins', sans-serif;
@@ -117,8 +92,6 @@
 	left: auto;
 	height: auto;
 	width: auto;
-	#max-height: 180px;
 	margin: 5% auto;
-	#padding-left: 30px;
-	
+
 }

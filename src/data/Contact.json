@@ -10,7 +10,7 @@
                "name": "Social 1",
                "imgsrc": "/data_img/contact/linkedIn2.svg",
                "imgalt": "LinkedIn",
-               "link": ""
+               "link": "https://www.linkedin.com/"
             }
          },
          {
@@ -20,7 +20,7 @@
                "name": "Social 2",
                "imgsrc": "/data_img/contact/slack.svg",
                "imgalt": "Slack",
-               "link": ""
+               "link": "https://app.slack.com/"
             }
          },
          {
@@ -30,7 +30,7 @@
                "name": "Social 3",
                "imgsrc": "/data_img/contact/github2.svg",
                "imgalt": "GitHub",
-               "link": ""
+               "link": "https://github.com/"
             }
          },
          {
@@ -40,7 +40,7 @@
                "name": "Social 4",
                "imgsrc": "/data_img/contact/google-groups.svg",
                "imgalt": "Google Groups",
-               "link": ""
+               "link": "https://groups.google.com/"
             }
          },
          {
@@ -50,13 +50,13 @@
                "name": "Social 5",
                "imgsrc": "/data_img/contact/youtube.svg",
                "imgalt": "YouTube",
-               "link": ""
+               "link": "https://www.youtube.com/"
             }
          }
       ],
       "title": "Title",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imgsrc": "/data_img/contact/contact.svg",
-      "imgalt": ""
+      "imgalt": "plane"
    }
 ]

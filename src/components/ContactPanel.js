@@ -6,8 +6,6 @@ function ContactPanel(props) {
     
     const data = props.data;
 
-    // console.log(data);
-
     return (
         <div className="contact_panel_data col-lg-10 col-md-12">
             <div className="contact_info col-lg-8 col-md-12">
@@ -30,9 +28,7 @@ function ContactSocials(props) {
     
     data.socials.forEach(social => {
 
-        // console.log(social.uid);
-
-        renderData.push(<img className="contact_icon" src={social.data.imgsrc} alt={social.data.imgalt} key={social.uid} />);
+        renderData.push(<a href={social.data.link} target="_blank" key={social.uid}><img className="contact_icon" src={social.data.imgsrc} alt={social.data.imgalt} /></a>);
     })
 
     return (
