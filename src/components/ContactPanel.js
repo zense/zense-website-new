@@ -9,12 +9,15 @@ function ContactPanel(props) {
     // console.log(data);
 
     return (
-        <div className="contact_panel_data">
-            <div className="contact_info">
-                <p>{data.info}</p>
+        <div className="contact_panel_data col-lg-10 col-md-12">
+            <div className="contact_info col-lg-8 col-md-12">
+                <h4 className="contact_title">{data.title}</h4>
+                <div className="contact_text">
+                    {data.text}
+                </div>
             </div>
-            <div className="contact_picture">
-                <img src={data.imgsrc} alt={data.imgalt} />
+            <div className="col-lg-4 col-md-12">
+                <img className="contact_picture" src={data.imgsrc} alt={data.imgalt} />
             </div>
         </div>
     )
@@ -29,11 +32,11 @@ function ContactSocials(props) {
 
         // console.log(social.uid);
 
-        renderData.push(<img src={social.data.imgsrc} alt={social.data.imgalt} key={social.uid} />);
+        renderData.push(<img className="contact_icon" src={social.data.imgsrc} alt={social.data.imgalt} key={social.uid} />);
     })
 
     return (
-        <div className="contact_panel_socials">
+        <div className="contact_panel_socials col-lg-2 col-md-12">
             {renderData}
         </div>
     );
