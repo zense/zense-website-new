@@ -1,0 +1,62 @@
+[
+   {
+      "type": "panel",
+      "uid": "1",
+      "socials": [
+         {
+            "type": "social",
+            "uid": "11",
+            "data": {
+               "name": "Social 1",
+               "imgsrc": "/data_img/contact/linkedIn2.svg",
+               "imgalt": "LinkedIn",
+               "link": "https://www.linkedin.com/"
+            }
+         },
+         {
+            "type": "social",
+            "uid": "12",
+            "data": {
+               "name": "Social 2",
+               "imgsrc": "/data_img/contact/slack.svg",
+               "imgalt": "Slack",
+               "link": "https://app.slack.com/"
+            }
+         },
+         {
+            "type": "social",
+            "uid": "13",
+            "data": {
+               "name": "Social 3",
+               "imgsrc": "/data_img/contact/github2.svg",
+               "imgalt": "GitHub",
+               "link": "https://github.com/"
+            }
+         },
+         {
+            "type": "social",
+            "uid": "14",
+            "data": {
+               "name": "Social 4",
+               "imgsrc": "/data_img/contact/google-groups.svg",
+               "imgalt": "Google Groups",
+               "link": "https://groups.google.com/"
+            }
+         },
+         {
+            "type": "social",
+            "uid": "15",
+            "data": {
+               "name": "Social 5",
+               "imgsrc": "/data_img/contact/youtube.svg",
+               "imgalt": "YouTube",
+               "link": "https://www.youtube.com/"
+            }
+         }
+      ],
+      "title": "Title",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imgsrc": "/data_img/contact/contact.svg",
+      "imgalt": "plane"
+   }
+]
