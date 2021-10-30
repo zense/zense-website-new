@@ -1,5 +1,18 @@
 You can find the design and prototype of the website [here](https://www.figma.com/file/02OgVi0VsQixVsuxQ5RGww/ZenseWebsite?node-id=0%3A1).
 
+
+# Installation
+You can install all dependencies by executing the following commands:
+```
+sudo apt remove cmdtest
+sudo apt remove yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update
+sudo apt-get install yarn -y
+yarn install 
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
