@@ -2,7 +2,8 @@
     width: 100%;
     height: 90vh;
     display: flex;
-    justify-content: space-between;
+    #justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .main_banner_logo{
@@ -14,6 +15,9 @@
 }
 
 .home_page_moto{
+
+    display: none;
+
     background: url('../assets/plug.svg');
     background-repeat: no-repeat;
     background-size: cover;
