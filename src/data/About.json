@@ -3,10 +3,10 @@
 		"type": "about",
 		"uid": "F7J3mBuDEwyOeAr0",
 		"data": {
-			"imgsrc": "/data_img/about/about_right.svg",
+			"imgsrc": "/data_img/about/aboutRight.svg",
 			"imgalt": "CircuitVerse image right",
 			"title": "Who are we?",
-			"text": "Dive into the world of Logic Circuits for free! From simple gates to complex sequential circuits, plot timing diagrams, automatic circuit generation, explore standard ICs, and much more"
+			"text": "We are a developers' community, run and managed entirely by students of IIIT-Bangalore, consisting of tech enthusiasts who seek to build and break things while working with the bleeding edge of technologies"
 		}
 	},
 
@@ -14,10 +14,10 @@
 		"type": "about",
 		"uid": "kELAD0roRSGHYwD3",
 		"data": {
-			"imgsrc": "/data_img/about/about_left.svg",
+			"imgsrc": "/data_img/about/aboutLeft.svg",
 			"imgalt": "CircuitVerse image left",
 			"title": "What do we do?",
-			"text": "Dive into the world of Logic Circuits for free! From simple gates to complex sequential circuits, plot timing diagrams, automatic circuit generation, explore standard ICs, and much more"
+			"text": "Our goal is to unite passionate developers and provide them with a platform to collaborate and innovate. We organise seminars on new technologies, conduct hackathons and promote Open Source culture at IIIT Bangalore."
 		}
 	}
 ]
