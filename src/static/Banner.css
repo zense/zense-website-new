@@ -26,10 +26,13 @@
 }
 
 
-.home_page_symbol{
-    #width: 50%;
-    
-}
+@media only screen and (min-width: 992px) {
+
+    .home_page_symbol{
+        width: 50%;
+    }
+
+} 
 
 .main_moto{
     height: 100%;
