@@ -24,7 +24,7 @@ function Team() {
 		<section id="team">
             <h3 className="team_heading"> The Team </h3>
 			<Container className="team_container">
-				<div class = 'team-row'>
+				<div className = 'team-row'>
 					{renderData}
 				</div>
 			</Container>
