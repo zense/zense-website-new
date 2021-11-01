@@ -85,6 +85,14 @@
 	
 }
 
+@media only screen and (max-width: 992px) {
+
+    .about_picture{
+        display: none;
+    }
+
+} 
+
 .about_picture{
 
 	position: absolute;
@@ -95,13 +103,6 @@
 }
 
 .about_picture_right{
-
-    /*background: url('../assets/plug.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;*/
-
-
 	left: 0px;
 	padding-right: 0 !important;
 }
