@@ -15,7 +15,7 @@ function AboutPanelRight(props) {
 						</div>
 					</div>
 					<div className="about_picture about_picture_right col-lg-6 col-md-12 col-xs-12 col-centered">
-						<img className="about_picture_right col-lg-12 col-md-12 col-xs-12 col-centered" src={data.imgsrc} alt={data.imgalt} />
+						<object type="image/svg+xml" className="about_picture_right col-lg-12 col-md-12 col-xs-12 col-centered" data={data.imgsrc} alt={data.imgalt} />
 					</div>
 				</div>
 			</div>
@@ -30,7 +30,7 @@ function AboutPanelLeft(props) {
 			<div className="about_panel about_panel_left container">
 				<div className="row row-centered pos">
 					<div className="about_picture about_picture_left col-lg-6 col-md-12 col-xs-12">
-						<img className="about_picture_left col-lg-12 col-md-12 col-xs-12" src={data.imgsrc} alt={data.imgalt} />
+						<object type="image/svg+xml" className="about_picture_left col-lg-12 col-md-12 col-xs-12" data={data.imgsrc} alt={data.imgalt} />
 					</div>
 					<div className="about_info about_info_left col-lg-6 col-md-12 col-xs-12 col-centered">
 						
